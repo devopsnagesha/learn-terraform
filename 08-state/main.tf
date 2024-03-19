@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "join-tf-states"
-    key    = "testing/stae"
+    key    = "testing/state"
     region = "us-east-1"
   }
 }
