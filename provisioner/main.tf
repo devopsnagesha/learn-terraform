@@ -15,8 +15,8 @@ resource "null_resource" "provisioner" {
     }
 
     inline = [
-      " dnf install nginx",
-      "sudo dnf enable nginx}",
+      "sudo dnf install nginx",
+      "sudo systemctl start nginx}",
     ]
   }
 }
